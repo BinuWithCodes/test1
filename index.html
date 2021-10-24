@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTRATION FORM</title>
+        <style>
+            body {
+                margin: 0;
+
+            }
+
+            #page {
+                width: 100%;
+                height: 100vh;
+                background-color:white;s
+                padding: 20px;
+            }
+
+            #container {
+                border: 1px solid black;
+                width: 87%;
+                height: 87vh;
+                background-color: rgba(255, 68, 0, 0.219);
+                margin: 5%;
+                text-align: center;
+                color: black;
+            }
+
+            form .box {
+                width: 28%;
+                height: 2.8em;
+                position: relative;
+                bottom: 10px;
+                bottom: 0;
+                border-radius: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="page">
+            <div id="container">
+
+                <h1 style="color: black;">REGISTRATION FORM</h1>
+                <form>
+                    <label>Name</label> <br>
+                    <input type="text" name="name" placeholder="Enter your Name" required minlength="3" pattern="a-zA-Z"
+                        class="box" /><BR><BR>  
+                    <label>Last Name</label><br>
+                    <input type="text" name="lastname" placeholder="Enter your lastname" pattern="a-z" class="box">
+                    </label><br><br>
+                    <label>username</label> <br>
+                    <input type="text" name="username" placeholder="type your username" class="box"> <br>
+                    <label>password</label> <br>
+                    <input type="password" name="password" placeholder="type your password" class="box"> <br>
+                    <label>Email Id</label><br>
+                    <input type="Email Id" pattern="@gmail.com" placeholder="Enter your email id" class="box"><br><br>
+                    <label>Mobile Number</label><br>
+                    <input type="digit" pattern="(0-9)" placeholder="Enter your Number" required minlength="10"
+                        maxlength="10" class="box"><br><br>
+                    
+                    <div>
+                    
+                    
+                        <button style="color: black;">REGISTER</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+<HTML/>
+
+    
+    
+
